@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'twitter/version'
 
 Gem::Specification.new do |spec|
-  spec.add_dependency 'addressable', '~> 2.3'
+  spec.add_dependency 'addressable', '~> 2.6'
   spec.add_dependency 'buftok', '~> 0.2.0'
   spec.add_dependency 'equalizer', '~> 0.0.11'
   spec.add_dependency 'http', '~> 3.0'
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'multipart-post', '~> 2.0'
   spec.add_dependency 'naught', '~> 1.0'
   spec.add_dependency 'simple_oauth', '~> 0.3.0'
-  spec.add_development_dependency 'bundler', '~> 1.0'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.authors = ['Erik Michaels-Ober', 'John Nunemaker', 'Wynn Netherland', 'Steve Richert', 'Steve Agalloco']
   spec.description = 'A Ruby interface to the Twitter API.'
   spec.email = %w[sferik@gmail.com]
